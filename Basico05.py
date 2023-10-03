@@ -25,7 +25,9 @@ elif precio > 50:
 #---------------------------------------------
 # si nada de lo anterior 
 #------------------------------------------
-else print("EL precio es 50")
+else:
+
+    print(<"El  precio es 50")
 
 precio = 50 
 cantidad = 5
@@ -64,11 +66,56 @@ while num < 5:
     while num < 5:
         num += 1 # num += 1 es lo mismo que num = num+1
         print('num = ', num)
-        if nym == 3: # Condicion antes de salir del bucle
-
+        if num == 3: # Condicion antes de salir del bucle
             break
 
 
 num m= 0 
-while num # video 05 sseg 31
+while num < 5:
+    num +=1 
+    if num > 3:
+        continue # Evitar lo que sigue, continuar con las iteraciones 
+
+    print('num = ', num)
+
+#================================
+# Bucle sobre lista
+#===========================
+nums = [10, 20, 30, 40, 50]
+for i in nums:
+    print(i)
+
+#========================
+# Bucle sobre un string
+#========================
+for char in 'Hola':
+    print(char)
+
+#====================================
+# Bucle sobre un diccionario
+# items = elementos 
+#========================
+numeros = { 1: 'uno', 2:'dos', 3: 'tres'}
+for par in numeros.items()
+print(par)
+
+#==================================
+# Bucle sobre diccionario 
+# Key = llave 
+# Value = valor
+#================================
+for k,v in numeros.items():
+    print("key = ", k ", value =", y)
+numeros = { 1: 'uno', 2:'dos', 3: 'tres'}
+for par in numeros.items()
+print(par)
+
+#==================================
+# Bucle sobre diccionario 
+# Key = llave 
+# Value = valor
+#================================
+for k,v in numeros.items():
+    print("key = ", k ", value =", y)
+
 
